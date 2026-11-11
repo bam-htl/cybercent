@@ -10,4 +10,4 @@ set -e
 # -d /home/dev/cybercent -> Directory containing the vm package.
 # -t / -> Target directory (Linux root).
 # vm -> Package to stow.
-sudo stow -R -d /home/dev/cybercent/ -t / vm
+sudo stow -R -d /home/dev/cybercent/vm -t /opt opt
